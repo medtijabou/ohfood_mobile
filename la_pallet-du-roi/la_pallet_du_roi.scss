@@ -1,0 +1,111 @@
+/* Reset léger */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .container{
+  max-width:1440px;
+
+  }
+  // variable
+  $font-primary: 'Shrikhand', cursive;
+
+  //header
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding-left: 20px;
+  }
+  header h1{
+    font-family: $font-primary;
+  }
+  .img{
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    
+  }
+
+
+  .menu-container{
+    background: #F6F6F6;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    top:-2%;
+  }
+  .food-card{
+    position: relative;
+  }
+
+ 
+  .titel-menu{
+    display: flex;
+    align-items: center;
+   
+ }
+ .titel-menu h2{
+  font-family: $font-primary;
+ }
+//  .logo-love i {
+//   font-size: 20px;
+//   -webkit-text-stroke: white 1px;
+//   position: absolute;
+//   left: 16EM;
+//   top: 29%;
+//   opacity: 0;
+// }
+
+// .logo-love-sytle {
+//   font-size: 20px;
+//   -webkit-text-stroke: white 1px;
+//   position: absolute;
+//   left: 16em;
+//  top: 2px;
+//   opacity: 0;
+//   display: inline-block;
+//   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+//   background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   transition: opacity 1s;
+// }
+// .logo-love-sytle:hover {
+//   opacity: 0;
+// }
+
+
+
+  
